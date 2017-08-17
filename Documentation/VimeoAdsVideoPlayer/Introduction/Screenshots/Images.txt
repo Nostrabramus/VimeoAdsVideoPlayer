@@ -1,0 +1,14 @@
+﻿.. |img-4|      image:: ../../../Images/manual_html_m7d67b2c91.png
+   :height: 338
+   :width: 344
+.. :align: left
+.. :border: 0
+.. :name: Flexform plugin
+
+.. |img-5|      image:: ../../../Images/manual_html_93f1910.png
+   :height: 300
+   :width: 300
+.. :align: left
+.. :border: 0
+.. :name: Iframe Vimeo
+

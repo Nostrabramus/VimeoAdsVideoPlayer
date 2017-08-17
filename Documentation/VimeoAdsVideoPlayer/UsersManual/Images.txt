@@ -1,0 +1,14 @@
+﻿.. |img-6|      image:: ../../Images/manual_html_m7d67b2c9.png
+   :height: 622
+   :width: 611
+.. :align: left
+.. :border: 0
+.. :name: Flexform plugin
+
+.. |img-7|      image:: ../../Images/manual_html_m7785c5fd.png
+   :height: 208
+   :width: 651
+.. :align: left
+.. :border: 0
+.. :name: Insert Record
+

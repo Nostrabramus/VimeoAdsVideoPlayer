@@ -1,0 +1,17 @@
+﻿.. |img-1|      image:: ../Images/manual_html_m12b2d25f.gif
+.. :align: left
+
+.. |img-2|      image:: ../Images/manual_html_6269a05c.png
+   :height: 272
+   :width: 400
+.. :align: left
+.. :border: 0
+.. :name: Vimeo Ads Video Player
+
+.. |img-3|      image:: ../Images/manual_html_m7f5c6463.png
+   :height: 84
+   :width: 200
+.. :align: left
+.. :border: 0
+.. :name: immagini1
+
