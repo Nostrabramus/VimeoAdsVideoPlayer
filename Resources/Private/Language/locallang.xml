@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for the Vimeo extension in the FRONTEND</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="list_title">Vimeo</label>
+            <label index="list_plus_wiz_description">Vimeo Ads Video Player</label>
+            <label index="flexform.tab">Vimeo</label>
+            <label index="flexform.id">Vimeo Video ID</label>
+            <label index="flexform.autoplay">Autoplay</label>
+            <label index="flexform.random">Random Start</label>
+            <label index="flexform.loop">Loop</label>
+            <label index="flexform.mute">Mute</label>
+            <label index="flexform.width">Video width (px)</label>
+            <label index="flexform.height">Video height (px)</label>
+            <label index="flexform.def_by_typoscript">Defined by TypoScript</label>
+            <label index="flexform.yes">Yes</label>
+            <label index="flexform.no">No</label>
+        </languageKey>
+		
+		<languageKey index="it" type="array">
+            <label index="list_title">Vimeo</label>
+            <label index="list_plus_wiz_description">Vimeo Ads Video Player</label>
+            <label index="flexform.tab">Vimeo</label>
+            <label index="flexform.id">ID Video Vimeo</label>
+            <label index="flexform.autoplay">Autoplay</label>
+            <label index="flexform.random">Partenza Casuale</label>
+            <label index="flexform.loop">Loop</label>
+            <label index="flexform.mute">Partenza senza Volume</label>
+            <label index="flexform.width">Larghezza del Player Video (px)</label>
+            <label index="flexform.height">Altezza del Player Video (px)</label>
+            <label index="flexform.def_by_typoscript">Definito dal TypoScript</label>
+            <label index="flexform.yes">Si</label>
+            <label index="flexform.no">No</label>
+        </languageKey>
+    </data>
+</T3locallang>
