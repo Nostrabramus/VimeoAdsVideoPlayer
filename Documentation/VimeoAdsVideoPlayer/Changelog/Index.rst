@@ -23,6 +23,14 @@ ChangeLog
 .. container:: table-row
 
    Version
+         8.7.2
+
+   Changes
+         Fixed extensions dependencies and copyright info
+
+.. container:: table-row
+
+   Version
          8.7.1
 
    Changes
