@@ -1,4 +1,4 @@
-﻿
+﻿.. include:: Images.txt
 
 .. ==================================================
 .. FOR YOUR INFORMATION
@@ -14,36 +14,29 @@
    :class:  typoscript
 .. role::   php(code)
 
-===========================
-EXT: Vimeo Ads Video Player
-===========================
 
-:Author:
-      Marcella Greca, Abramo Tesoro
+|img-2|
+==============================================
+Vimeo Ads Video Player
+==============================================
 
-:Created:
-      2015-02-11
+Extension Key:  *aip\_vimeo*
 
-:Changed:
-      2017-08-17
+Language: en
 
-:Classification:
-      aip_vimeo
+Version: 8.7.2
 
-:Description:
-      Vimeo Ads Video Player is an easy to use plugin that allows viewing of one or more videos and configuration of different options such as autoplay, loop, random, mute... The easiest way to integrate video Ads on your website! You can find a working version for TYPO3 4.5 in the download tab of the extension
+Keywords: Vimeo, advertising, ads, video, player, banner, playlist
 
-:Keywords:
-      Vimeo, advertising, ads, video, player, banner, playlist
+Copyright 2017, Marcella Greca, Abramo Tesoro, <typo3developers@archicoop.it >
 
-:Author:
-      Archimede Informatica
+This document is published under the Open Content License
 
-:Email:
-      typo3developers@archicoop.it
+available from http://www.opencontent.org/opl.shtml
 
-:Language:
-      en
+The content of this document is related to TYPO3
+
+\- a GNU/GPL CMS/Framework available from www.typo3.org
 
 
 .. toctree::
@@ -51,5 +44,11 @@ EXT: Vimeo Ads Video Player
    :titlesonly:
    :glob:
 
-   VimeoAdsVideoPlayer/Index
+   Introduction/Index
+   UsersManual/Index
+   Administration/Index
+   Configuration/Index
+   KnownProblems/Index
+   To-doList/Index
+   Changelog/Index
 
