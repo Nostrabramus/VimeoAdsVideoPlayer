@@ -1,0 +1,44 @@
+plugin.tx_aipvimeo {
+
+    # customsubcategory=100=Files
+    # customsubcategory=200=Player
+    # customsubcategory=300=Functions
+
+	view {
+		# cat=aipvimeo/100/1; type=string; label=Path to template (FE)
+		templateRootPath = EXT:aip_vimeo/Resources/Private/Templates/
+		# Path to partials (FE)
+		partialRootPath = EXT:aip_vimeo/Resources/Private/Partials/
+		# Path to layouts (FE)
+		layoutRootPath = EXT:aip_vimeo/Resources/Private/Layouts/
+	}
+
+    settings{
+
+		default{
+            # cat=aipvimeo/200/1; type=int; label=Video widht (px)
+		    width = 300
+            # cat=aipvimeo/200/2; type=int; label=Video height (px)
+		    height = 300
+		}
+
+        lib{
+            # cat=aipvimeo/100/2; type=string; label=Path to Css
+            css_style = EXT:aip_vimeo/Resources/Public/css/style_vimeo.css
+            # Path to Player JavaScript lib
+            player = EXT:aip_vimeo/Resources/Public/js/player.js
+            # Path to JavaScript lib after video player
+            aip_vimeo = EXT:aip_vimeo/Resources/Public/js/aip_vimeo.js
+        }
+
+        # cat=aipvimeo/300/1; type=boolean; label=Autoplay
+        autoplay = 1
+        # cat=aipvimeo/300/2; type=boolean; label=Random
+        random = 1
+        # cat=aipvimeo/300/3; type=boolean; label=Loop
+        loop = 1
+        # cat=aipvimeo/300/4; type=boolean; label=Mute
+        mute = 1
+    }
+
+}

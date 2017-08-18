@@ -1,0 +1,31 @@
+
+
+plugin.tx_aipvimeo {
+	view {
+		templateRootPath = {$plugin.tx_aipvimeo.view.templateRootPath}
+		partialRootPath = {$plugin.tx_aipvimeo.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_aipvimeo.view.layoutRootPath}
+	}
+	settings {
+		title = 0
+		byline = 0
+		portrait = 0
+		badge = 0
+		color = F18E00
+        autoplay = {$plugin.tx_aipvimeo.settings.autoplay}
+        random = {$plugin.tx_aipvimeo.settings.random}
+        loop = {$plugin.tx_aipvimeo.settings.loop}
+        mute = {$plugin.tx_aipvimeo.settings.mute}
+
+		default{
+		    width = {$plugin.tx_aipvimeo.settings.default.width}
+		    height = {$plugin.tx_aipvimeo.settings.default.height}
+		}
+
+        lib {
+            css_style = {$plugin.tx_aipvimeo.settings.lib.css_style}
+            player = {$plugin.tx_aipvimeo.settings.lib.player}
+			aip_vimeo = {$plugin.tx_aipvimeo.settings.lib.aip_vimeo}
+        }
+	}
+}
