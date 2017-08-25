@@ -47,9 +47,9 @@ class Wizicon {
 	 */
 	 
 	function proc($wizardItems) {
-        if (version_compare(TYPO3_version, '8.0.0', '>=')){
+        if (version_compare(TYPO3_version, '7.0.0', '>=')){
             $wizardItems['plugins_tx_aipvimeo_vimeo'] = array(
-                'icon' =>  PathUtility::getAbsoluteWebPath('aip_vimeo') . '/Resources/Public/Icons/Vimeo.gif',
+                'iconIdentifier' => 'ext-aipvimeo-wizard-icon',
                 'title' => $GLOBALS['LANG']->sL($this->locallangPath . 'list_title', TRUE),
                 'description' => $GLOBALS['LANG']->sL($this->locallangPath . 'list_plus_wiz_description', TRUE),
                 'params' => '&defVals[tt_content][CType]=list&defVals[tt_content][list_type]=aipvimeo_vimeo',
