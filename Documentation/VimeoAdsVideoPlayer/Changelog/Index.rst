@@ -23,6 +23,14 @@ ChangeLog
 .. container:: table-row
 
    Version
+         8.7.3
+
+   Changes
+         BugFix for TYPO3 6.2 support and correction to text of the user manualSupports
+
+.. container:: table-row
+
+   Version
          8.7.2
 
    Changes
