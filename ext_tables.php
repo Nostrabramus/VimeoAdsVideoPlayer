@@ -52,10 +52,20 @@ if (TYPO3_MODE == 'BE') {
 	$TBE_MODULES_EXT['xMOD_db_new_content_el']['addElClasses']['Aip\AipVimeo\Wizicon'] = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY) . 'Classes/Wizicon.php';
 }
 
-$TCA['tt_content']['columns']['list_type']['config']['items'][] = array(
-    0 => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang.xml:list_plus_wiz_description',
-    1 => 'aipvimeo_vimeo',
-    2 => '../typo3conf/ext/aip_vimeo/ext_icon.gif'
-);
+if (version_compare(TYPO3_version, '7.0.0', '>=')){
+    /** @var \TYPO3\CMS\Core\Imaging\IconRegistry $iconRegistry */
+    $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Core\Imaging\IconRegistry');
+    $iconRegistry->registerIcon(
+            'ext-aipvimeo-wizard-icon',
+            'TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider',
+            ['source' => 'EXT:aip_vimeo/Resources/Public/Icons/Vimeo.gif']
+    );
+}else{
+    $TCA['tt_content']['columns']['list_type']['config']['items'][] = array(
+        0 => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang.xml:list_plus_wiz_description',
+        1 => 'aipvimeo_vimeo',
+        2 => '../typo3conf/ext/aip_vimeo/ext_icon.gif'
+    );
+}
 
 ?>
