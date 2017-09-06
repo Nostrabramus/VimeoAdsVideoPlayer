@@ -25,7 +25,7 @@ EXT: Vimeo Ads Video Player
       2015-02-11
 
 :Changed:
-      2017-08-17
+      2017-09-06
 
 :Classification:
       aip_vimeo
