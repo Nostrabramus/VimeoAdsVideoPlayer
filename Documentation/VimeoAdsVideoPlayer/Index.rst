@@ -24,7 +24,7 @@ Extension Key:  *aip\_vimeo*
 
 Language: en
 
-Version: 8.7.3
+Version: 8.7.4
 
 Keywords: Vimeo, advertising, ads, video, player, banner, playlist
 
