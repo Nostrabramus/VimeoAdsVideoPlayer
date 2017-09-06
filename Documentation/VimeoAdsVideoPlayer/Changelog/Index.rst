@@ -23,6 +23,14 @@ ChangeLog
 .. container:: table-row
 
    Version
+         8.7.4
+
+   Changes
+         New release because of Privilege Escalation in Extension Repository
+
+.. container:: table-row
+
+   Version
          8.7.3
 
    Changes
